@@ -1,0 +1,135 @@
+{
+  "_meta": {
+    "models": {
+      "Commitment": "A donor's pledge to provide a specific registry item. Tracks donor contact info, quantity committed, claim date, fulfillment status, and an optional coordinator note.",
+      "CommitmentItem": "A lightweight reference to the registry item a commitment is made against — includes the item name and total quantity needed for context."
+    },
+    "relationships": [
+      "Commitment belongs to a registry item via itemId",
+      "A single item may have multiple Commitments if its quantityNeeded is greater than one",
+      "Fulfillment is tracked per Commitment, not per item"
+    ]
+  },
+  "commitments": [
+    {
+      "id": "c-1",
+      "itemId": "item-5",
+      "itemName": "Burp Cloths (Set of 5+)",
+      "itemQuantityNeeded": 4,
+      "donorName": "Rachel Kim",
+      "donorEmail": "rachel.kim@gmail.com",
+      "quantityCommitted": 2,
+      "claimedAt": "2026-05-21T14:32:00Z",
+      "fulfilled": false,
+      "note": "Dropping off Thursday afternoon"
+    },
+    {
+      "id": "c-2",
+      "itemId": "item-1",
+      "itemName": "Onesies (0–3 Month)",
+      "itemQuantityNeeded": 4,
+      "donorName": "Marcus Webb",
+      "donorEmail": "mwebb@outlook.com",
+      "quantityCommitted": 1,
+      "claimedAt": "2026-05-20T09:15:00Z",
+      "fulfilled": true,
+      "note": null
+    },
+    {
+      "id": "c-3",
+      "itemId": "item-11",
+      "itemName": "Postpartum Recovery Kit",
+      "itemQuantityNeeded": 2,
+      "donorName": "Linda Ostrowski",
+      "donorEmail": "linda.o@yahoo.com",
+      "quantityCommitted": 1,
+      "claimedAt": "2026-05-19T16:48:00Z",
+      "fulfilled": false,
+      "note": null
+    },
+    {
+      "id": "c-4",
+      "itemId": "item-7",
+      "itemName": "Swaddle Blankets (Set of 3)",
+      "itemQuantityNeeded": 3,
+      "donorName": "Priya Nair",
+      "donorEmail": "priya.nair@gmail.com",
+      "quantityCommitted": 1,
+      "claimedAt": "2026-05-18T11:04:00Z",
+      "fulfilled": false,
+      "note": "Will mail directly — asked for mailing address"
+    },
+    {
+      "id": "c-5",
+      "itemId": "item-3",
+      "itemName": "Newborn Hat & Mitten Set",
+      "itemQuantityNeeded": 3,
+      "donorName": "Tanya Reeves",
+      "donorEmail": "tanyar@icloud.com",
+      "quantityCommitted": 3,
+      "claimedAt": "2026-05-17T08:22:00Z",
+      "fulfilled": true,
+      "note": null
+    },
+    {
+      "id": "c-6",
+      "itemId": "item-12",
+      "itemName": "Nursing Pads (Disposable, Box of 60)",
+      "itemQuantityNeeded": 4,
+      "donorName": "Deanna Flores",
+      "donorEmail": "d.flores@gmail.com",
+      "quantityCommitted": 2,
+      "claimedAt": "2026-05-16T13:55:00Z",
+      "fulfilled": true,
+      "note": null
+    },
+    {
+      "id": "c-7",
+      "itemId": "item-9",
+      "itemName": "Baby Wash & Lotion Set",
+      "itemQuantityNeeded": 3,
+      "donorName": "Stephanie Chung",
+      "donorEmail": "schung@hotmail.com",
+      "quantityCommitted": 1,
+      "claimedAt": "2026-05-15T10:30:00Z",
+      "fulfilled": false,
+      "note": null
+    },
+    {
+      "id": "c-8",
+      "itemId": "item-2",
+      "itemName": "Footed Sleepers (3–6 Month)",
+      "itemQuantityNeeded": 2,
+      "donorName": "James Hartwell",
+      "donorEmail": "jhartwell@gmail.com",
+      "quantityCommitted": 2,
+      "claimedAt": "2026-05-14T15:10:00Z",
+      "fulfilled": false,
+      "note": "Buying new — will have by end of month"
+    },
+    {
+      "id": "c-9",
+      "itemId": "item-10",
+      "itemName": "Baby Nail Kit",
+      "itemQuantityNeeded": 2,
+      "donorName": "Grace Andersen",
+      "donorEmail": "grace.andersen@gmail.com",
+      "quantityCommitted": 2,
+      "claimedAt": "2026-05-12T09:00:00Z",
+      "fulfilled": true,
+      "note": null
+    },
+    {
+      "id": "c-10",
+      "itemId": "item-5",
+      "itemName": "Burp Cloths (Set of 5+)",
+      "itemQuantityNeeded": 4,
+      "donorName": "Olivia Santos",
+      "donorEmail": "o.santos@gmail.com",
+      "quantityCommitted": 1,
+      "claimedAt": "2026-05-10T12:45:00Z",
+      "fulfilled": false,
+      "note": null
+    }
+  ]
+}
