@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Pencil, Trash2, StickyNote } from 'lucide-react'
+import { Pencil, Trash2 } from 'lucide-react'
 import type { Commitment, CommitmentFormValues } from '@/../product/sections/donor-commitments/types'
 
 interface CommitmentRowProps {
@@ -197,15 +197,15 @@ export function CommitmentRow({ commitment, insideGroup, onToggleFulfilled, onUp
             </>
           )}
         </div>
+        {commitment.note && (
+          <p className="text-xs text-amber-700 dark:text-amber-400 mt-0.5 truncate">
+            {commitment.note}
+          </p>
+        )}
       </div>
 
       {/* Right side */}
       <div className="shrink-0 flex items-center gap-2.5">
-        {commitment.note && (
-          <span title={commitment.note} className="text-amber-500 dark:text-amber-400">
-            <StickyNote size={13} strokeWidth={2} />
-          </span>
-        )}
         <span className="text-xs text-stone-400 dark:text-stone-500 tabular-nums hidden sm:block">
           {formatDate(commitment.claimedAt)}
         </span>

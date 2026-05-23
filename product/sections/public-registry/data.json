@@ -10,6 +10,38 @@
       "An Item is considered fully claimed when quantityClaimed >= quantityNeeded — these are hidden from the public registry"
     ]
   },
+  "quotes": [
+    {
+      "id": "quote-1",
+      "text": "We can do no great things, only small things with great love.",
+      "attribution": "St. Teresa of Calcutta"
+    },
+    {
+      "id": "quote-2",
+      "text": "Give something, however small, to the one in need. For it is not small to one who has nothing.",
+      "attribution": "St. Gregory the Great"
+    },
+    {
+      "id": "quote-3",
+      "text": "It is not how much we do, but how much love we put in the doing.",
+      "attribution": "St. Teresa of Calcutta"
+    },
+    {
+      "id": "quote-4",
+      "text": "The measure of love is to love without measure.",
+      "attribution": "St. Francis de Sales"
+    },
+    {
+      "id": "quote-5",
+      "text": "Love is a fruit in season at all times, and within reach of every hand.",
+      "attribution": "St. Teresa of Calcutta"
+    },
+    {
+      "id": "quote-6",
+      "text": "We ourselves feel that what we are doing is just a drop in the ocean. But the ocean would be less because of that missing drop.",
+      "attribution": "St. Teresa of Calcutta"
+    }
+  ],
   "registry": {
     "dropOffInstructions": "Please drop off your donation at Grace Community Church, 4820 Maple Ridge Blvd, Room 112. Drop-off hours are Tuesday and Thursday 10am–2pm, and Sunday 9am–noon. Items should be new or gently used and in their original packaging if possible. If you have questions, email donations@walkingwithmoms.org."
   },

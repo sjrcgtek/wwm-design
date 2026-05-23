@@ -1,3 +1,5 @@
 export { PublicRegistry } from './PublicRegistry'
 export { ItemCard } from './ItemCard'
 export { ClaimModal } from './ClaimModal'
+export { QuoteBlock } from './QuoteBlock'
+export { QuoteManager } from './QuoteManager'

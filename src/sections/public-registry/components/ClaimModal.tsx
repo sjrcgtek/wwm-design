@@ -14,6 +14,7 @@ export function ClaimModal({ item, remainingQuantity, dropOffInstructions, onSub
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [quantity, setQuantity] = useState(1)
+  const [note, setNote] = useState('')
   const [confirmed, setConfirmed] = useState(false)
   const [submittedQuantity, setSubmittedQuantity] = useState(1)
 
@@ -30,7 +31,7 @@ export function ClaimModal({ item, remainingQuantity, dropOffInstructions, onSub
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
     if (name.trim() && email.trim()) {
-      onSubmit({ name: name.trim(), email: email.trim(), quantity })
+      onSubmit({ name: name.trim(), email: email.trim(), quantity, note: note.trim() || undefined })
       setSubmittedQuantity(quantity)
       setConfirmed(true)
     }
@@ -170,6 +171,19 @@ export function ClaimModal({ item, remainingQuantity, dropOffInstructions, onSub
                 >
                   Confirm Claim
                 </button>
+                <div>
+                  <label className="block text-xs font-semibold text-stone-700 dark:text-stone-300 mb-1.5">
+                    Note for the coordinator{' '}
+                    <span className="font-normal text-stone-400">(optional)</span>
+                  </label>
+                  <textarea
+                    value={note}
+                    onChange={e => setNote(e.target.value)}
+                    placeholder="e.g. I'll drop this off Sunday morning"
+                    rows={2}
+                    className="w-full px-3.5 py-2 text-sm bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-lg text-stone-900 dark:text-stone-100 placeholder-stone-400 focus:outline-none focus:ring-2 focus:ring-lime-700 focus:border-transparent transition-shadow resize-none"
+                  />
+                </div>
               </div>
             </form>
           </>

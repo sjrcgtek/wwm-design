@@ -7,6 +7,7 @@ export default function PublicRegistryView() {
       registry={data.registry}
       categories={data.categories}
       items={data.items}
+      quotes={data.quotes}
       onClaimItem={(itemId, donor) => console.log('Claim item:', itemId, donor)}
     />
   )

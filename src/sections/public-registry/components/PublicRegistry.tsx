@@ -2,10 +2,15 @@ import { useState, useMemo } from 'react'
 import type { PublicRegistryProps, DonorClaim } from '@/../product/sections/public-registry/types'
 import { ItemCard } from './ItemCard'
 import { ClaimModal } from './ClaimModal'
+import { QuoteBlock } from './QuoteBlock'
 
-export function PublicRegistry({ registry, categories, items, onClaimItem }: PublicRegistryProps) {
+export function PublicRegistry({ registry, categories, items, quotes, onClaimItem }: PublicRegistryProps) {
   const [search, setSearch] = useState('')
   const [claimingItemId, setClaimingItemId] = useState<string | null>(null)
+  const [quoteIndex] = useState(() =>
+    quotes.length > 0 ? Math.floor(Math.random() * quotes.length) : 0
+  )
+  const randomQuote = quotes.length > 0 ? quotes[quoteIndex] : null
 
   const availableItems = useMemo(
     () => items.filter(item => item.quantityClaimed < item.quantityNeeded),
@@ -67,6 +72,8 @@ export function PublicRegistry({ registry, categories, items, onClaimItem }: Pub
           Browse the list and claim an item to donate. Every gift makes a real difference for a new mom and baby.
         </p>
       </div>
+
+      {randomQuote && <QuoteBlock quote={randomQuote} />}
 
       {/* Search */}
       {!isEmpty && (
