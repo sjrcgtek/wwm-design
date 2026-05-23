@@ -1,0 +1,180 @@
+{
+  "_meta": {
+    "models": {
+      "Category": "A grouping label used to organize needs (e.g. Baby Clothing, Feeding).",
+      "Need": "A specific item the ministry is requesting donations of. Tracks quantity needed, quantity already claimed, an optional brand or store preference, and a category."
+    },
+    "relationships": [
+      "Need belongs to a Category via categoryId",
+      "A Need's claimedCount reflects how many donor commitments have been made against it"
+    ]
+  },
+  "categories": [
+    {
+      "id": "baby-clothing",
+      "label": "Baby Clothing"
+    },
+    {
+      "id": "feeding",
+      "label": "Feeding"
+    },
+    {
+      "id": "nursery-sleep",
+      "label": "Nursery & Sleep"
+    },
+    {
+      "id": "hygiene-care",
+      "label": "Hygiene & Care"
+    },
+    {
+      "id": "postpartum",
+      "label": "Postpartum Support"
+    }
+  ],
+  "needs": [
+    {
+      "id": "need-1",
+      "name": "Onesies (0–3 Month)",
+      "description": "Short and long sleeve newborn onesies in any color or pattern.",
+      "categoryId": "baby-clothing",
+      "quantityNeeded": 4,
+      "quantityClaimed": 1,
+      "brandPreference": "Carter's or similar",
+      "purchaseUrl": "https://www.amazon.com/s?k=carters+newborn+onesies",
+      "highPriority": false,
+      "imageUrl": "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=600&q=80"
+    },
+    {
+      "id": "need-2",
+      "name": "Footed Sleepers (3–6 Month)",
+      "description": "Warm footed pajamas, zipper closure preferred for easy nighttime changes.",
+      "categoryId": "baby-clothing",
+      "quantityNeeded": 2,
+      "quantityClaimed": 0,
+      "brandPreference": null,
+      "purchaseUrl": "https://www.amazon.com/s?k=footed+sleepers+3-6+month",
+      "highPriority": false,
+      "imageUrl": null
+    },
+    {
+      "id": "need-3",
+      "name": "Newborn Hat & Mitten Set",
+      "description": "Soft knit hat and mittens for a newborn.",
+      "categoryId": "baby-clothing",
+      "quantityNeeded": 3,
+      "quantityClaimed": 3,
+      "brandPreference": null,
+      "purchaseUrl": null,
+      "highPriority": false,
+      "imageUrl": null
+    },
+    {
+      "id": "need-4",
+      "name": "Baby Bottles (Set of 4)",
+      "description": "Slow-flow nipple bottles suitable for newborns. Great for supplementing or bottle feeding.",
+      "categoryId": "feeding",
+      "quantityNeeded": 2,
+      "quantityClaimed": 0,
+      "brandPreference": "Dr. Brown's or Philips Avent",
+      "purchaseUrl": "https://www.amazon.com/s?k=dr+browns+baby+bottles",
+      "highPriority": false,
+      "imageUrl": null
+    },
+    {
+      "id": "need-5",
+      "name": "Burp Cloths (Set of 5+)",
+      "description": "Absorbent muslin or terry cloth burp cloths. The more the better!",
+      "categoryId": "feeding",
+      "quantityNeeded": 4,
+      "quantityClaimed": 1,
+      "brandPreference": null,
+      "purchaseUrl": null,
+      "highPriority": false,
+      "imageUrl": null
+    },
+    {
+      "id": "need-6",
+      "name": "Nursing Cover",
+      "description": "A lightweight, breathable nursing cover for use at home or out in public.",
+      "categoryId": "feeding",
+      "quantityNeeded": 1,
+      "quantityClaimed": 0,
+      "brandPreference": "Bebe au Lait or similar",
+      "purchaseUrl": null,
+      "highPriority": false,
+      "imageUrl": null
+    },
+    {
+      "id": "need-7",
+      "name": "Swaddle Blankets (Set of 3)",
+      "description": "Stretchy muslin swaddle blankets — excellent for swaddling, nursing cover, or tummy time mat.",
+      "categoryId": "nursery-sleep",
+      "quantityNeeded": 3,
+      "quantityClaimed": 1,
+      "brandPreference": "Aden + Anais preferred",
+      "purchaseUrl": "https://www.amazon.com/s?k=aden+anais+swaddle+blankets",
+      "highPriority": false,
+      "imageUrl": null
+    },
+    {
+      "id": "need-8",
+      "name": "White Noise Machine",
+      "description": "Portable sound machine to help baby sleep through household noise. Rechargeable preferred.",
+      "categoryId": "nursery-sleep",
+      "quantityNeeded": 1,
+      "quantityClaimed": 0,
+      "brandPreference": "Hatch Rest or LectroFan",
+      "purchaseUrl": "https://www.amazon.com/s?k=hatch+rest+sound+machine",
+      "highPriority": true,
+      "imageUrl": "https://images.unsplash.com/photo-1586015555751-63bb77f4322a?w=600&q=80"
+    },
+    {
+      "id": "need-9",
+      "name": "Baby Wash & Lotion Set",
+      "description": "Gentle, fragrance-free wash and lotion for newborn skin. Hypoallergenic formulas preferred.",
+      "categoryId": "hygiene-care",
+      "quantityNeeded": 3,
+      "quantityClaimed": 0,
+      "brandPreference": "Cetaphil Baby or Burt's Bees Baby",
+      "purchaseUrl": "https://www.amazon.com/s?k=cetaphil+baby+wash+lotion",
+      "highPriority": true,
+      "imageUrl": null
+    },
+    {
+      "id": "need-10",
+      "name": "Baby Nail Kit",
+      "description": "Safe nail file and trimmer set for newborns.",
+      "categoryId": "hygiene-care",
+      "quantityNeeded": 2,
+      "quantityClaimed": 2,
+      "brandPreference": null,
+      "purchaseUrl": null,
+      "highPriority": false,
+      "imageUrl": null
+    },
+    {
+      "id": "need-11",
+      "name": "Postpartum Recovery Kit",
+      "description": "Includes perineal spray, pads, and sitz bath soak to support mom's recovery after delivery. This is one of the most-requested items — we can never have too many.",
+      "categoryId": "postpartum",
+      "quantityNeeded": 2,
+      "quantityClaimed": 0,
+      "brandPreference": "Frida Mom preferred",
+      "purchaseUrl": "https://www.amazon.com/s?k=frida+mom+postpartum+kit",
+      "highPriority": true,
+      "imageUrl": null
+    },
+    {
+      "id": "need-12",
+      "name": "Nursing Pads (Disposable, Box of 60)",
+      "description": "Disposable nursing pads to prevent leakage during the early weeks of breastfeeding.",
+      "categoryId": "postpartum",
+      "quantityNeeded": 4,
+      "quantityClaimed": 2,
+      "brandPreference": null,
+      "purchaseUrl": null,
+      "highPriority": false,
+      "imageUrl": null
+    }
+  ]
+}

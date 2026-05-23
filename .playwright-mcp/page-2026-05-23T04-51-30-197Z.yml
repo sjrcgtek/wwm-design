@@ -1,0 +1,192 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "Back" [ref=e6]:
+        - img
+        - text: Back
+      - generic [ref=e8]:
+        - img [ref=e9]
+        - generic [ref=e11]: Public Registry
+        - generic [ref=e12]: /
+        - generic [ref=e13]: PublicRegistryView
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - button "Mobile (30%)" [ref=e16]:
+            - img [ref=e17]
+          - button "Tablet (60%)" [ref=e19]:
+            - img [ref=e20]
+          - button "Desktop (100%)" [ref=e22]:
+            - img [ref=e23]
+        - generic [ref=e25]: 100%
+        - 'button "Theme: light" [ref=e26]':
+          - img
+        - link "Fullscreen" [ref=e27] [cursor=pointer]:
+          - /url: /sections/public-registry/screen-designs/PublicRegistryView/fullscreen
+          - img [ref=e28]
+          - text: Fullscreen
+  - generic [ref=e33]:
+    - img [ref=e36]
+    - iframe [ref=e44]:
+      - generic [ref=f1e5]:
+        - complementary [ref=f1e6]:
+          - generic [ref=f1e7]:
+            - img [ref=f1e9]
+            - generic [ref=f1e11]:
+              - paragraph [ref=f1e12]: Walking with Moms
+              - paragraph [ref=f1e13]: in Need
+          - navigation [ref=f1e14]:
+            - list [ref=f1e15]:
+              - listitem [ref=f1e16]:
+                - button "Public Registry" [ref=f1e17]:
+                  - img [ref=f1e19]
+                  - text: Public Registry
+              - listitem [ref=f1e22]:
+                - button "Needs List" [ref=f1e23]:
+                  - img [ref=f1e25]
+                  - text: Needs List
+              - listitem [ref=f1e26]:
+                - button "Donor Commitments" [ref=f1e27]:
+                  - img [ref=f1e29]
+                  - text: Donor Commitments
+          - button "DU Demo User" [ref=f1e34]:
+            - generic [ref=f1e36]: DU
+            - generic [ref=f1e37]: Demo User
+            - img [ref=f1e38]
+        - main [ref=f1e41]:
+          - generic [ref=f1e42]:
+            - generic [ref=f1e43]:
+              - paragraph [ref=f1e44]: Donation Registry
+              - heading "What We Need" [level=1] [ref=f1e45]
+              - paragraph [ref=f1e46]: Browse the list and claim an item to donate. Every gift makes a real difference for a new mom and baby.
+            - generic [ref=f1e47]:
+              - img
+              - textbox "Search items…" [ref=f1e48]
+            - generic [ref=f1e49]:
+              - generic [ref=f1e50]:
+                - generic [ref=f1e51]:
+                  - img [ref=f1e52]
+                  - heading "Most Needed" [level=2] [ref=f1e54]
+                - generic [ref=f1e55]:
+                  - article [ref=f1e56]:
+                    - generic [ref=f1e57]:
+                      - generic [ref=f1e58]:
+                        - heading "White Noise Machine" [level=3] [ref=f1e60]
+                        - paragraph [ref=f1e61]: Portable sound machine to help baby sleep through household noise. Rechargeable preferred.
+                        - paragraph [ref=f1e62]: ✦ Hatch Rest or LectroFan
+                        - link "Where to buy" [ref=f1e63] [cursor=pointer]:
+                          - /url: https://www.amazon.com/s?k=hatch+rest+sound+machine
+                          - text: Where to buy
+                          - img [ref=f1e64]
+                      - button "Claim" [ref=f1e66]
+                  - article [ref=f1e67]:
+                    - generic [ref=f1e68]:
+                      - generic [ref=f1e69]:
+                        - generic [ref=f1e70]:
+                          - heading "Baby Wash & Lotion Set" [level=3] [ref=f1e71]
+                          - generic [ref=f1e72]: 3 needed
+                        - paragraph [ref=f1e73]: Gentle, fragrance-free wash and lotion for newborn skin. Hypoallergenic formulas preferred.
+                        - paragraph [ref=f1e74]: ✦ Cetaphil Baby or Burt's Bees Baby
+                        - link "Where to buy" [ref=f1e75] [cursor=pointer]:
+                          - /url: https://www.amazon.com/s?k=cetaphil+baby+wash+lotion
+                          - text: Where to buy
+                          - img [ref=f1e76]
+                      - button "Claim" [ref=f1e78]
+                  - article [ref=f1e79]:
+                    - generic [ref=f1e80]:
+                      - generic [ref=f1e81]:
+                        - generic [ref=f1e82]:
+                          - heading "Postpartum Recovery Kit" [level=3] [ref=f1e83]
+                          - generic [ref=f1e84]: 2 needed
+                        - paragraph [ref=f1e85]: Includes perineal spray, pads, and sitz bath soak to support mom's recovery after delivery.
+                        - paragraph [ref=f1e86]: ✦ Frida Mom preferred
+                        - link "Where to buy" [ref=f1e87] [cursor=pointer]:
+                          - /url: https://www.amazon.com/s?k=frida+mom+postpartum+kit
+                          - text: Where to buy
+                          - img [ref=f1e88]
+                      - button "Claim" [ref=f1e90]
+              - generic [ref=f1e91]:
+                - heading "Baby Clothing" [level=2] [ref=f1e94]
+                - generic [ref=f1e95]:
+                  - article [ref=f1e96]:
+                    - img "Onesies (0–3 Month)" [ref=f1e97]
+                    - generic [ref=f1e98]:
+                      - generic [ref=f1e99]:
+                        - generic [ref=f1e100]:
+                          - heading "Onesies (0–3 Month)" [level=3] [ref=f1e101]
+                          - generic [ref=f1e102]: 3 needed
+                        - paragraph [ref=f1e103]: Short and long sleeve newborn onesies in any color or pattern.
+                        - paragraph [ref=f1e104]: ✦ Carter's or similar
+                        - link "Where to buy" [ref=f1e105] [cursor=pointer]:
+                          - /url: https://www.amazon.com/s?k=carters+newborn+onesies
+                          - text: Where to buy
+                          - img [ref=f1e106]
+                      - button "Claim" [ref=f1e108]
+                  - article [ref=f1e109]:
+                    - generic [ref=f1e110]:
+                      - generic [ref=f1e111]:
+                        - generic [ref=f1e112]:
+                          - heading "Footed Sleepers (3–6 Month)" [level=3] [ref=f1e113]
+                          - generic [ref=f1e114]: 2 needed
+                        - paragraph [ref=f1e115]: Warm footed pajamas, zipper closure preferred for easy nighttime changes.
+                        - link "Where to buy" [ref=f1e116] [cursor=pointer]:
+                          - /url: https://www.amazon.com/s?k=footed+sleepers+3-6+month
+                          - text: Where to buy
+                          - img [ref=f1e117]
+                      - button "Claim" [ref=f1e119]
+              - generic [ref=f1e120]:
+                - heading "Feeding" [level=2] [ref=f1e123]
+                - generic [ref=f1e124]:
+                  - article [ref=f1e125]:
+                    - generic [ref=f1e126]:
+                      - generic [ref=f1e127]:
+                        - generic [ref=f1e128]:
+                          - heading "Baby Bottles (Set of 4)" [level=3] [ref=f1e129]
+                          - generic [ref=f1e130]: 2 needed
+                        - paragraph [ref=f1e131]: Slow-flow nipple bottles suitable for newborns. Great for supplementing or bottle feeding.
+                        - paragraph [ref=f1e132]: ✦ Dr. Brown's or Philips Avent
+                        - link "Where to buy" [ref=f1e133] [cursor=pointer]:
+                          - /url: https://www.amazon.com/s?k=dr+browns+baby+bottles
+                          - text: Where to buy
+                          - img [ref=f1e134]
+                      - button "Claim" [ref=f1e136]
+                  - article [ref=f1e137]:
+                    - generic [ref=f1e138]:
+                      - generic [ref=f1e139]:
+                        - generic [ref=f1e140]:
+                          - heading "Burp Cloths (Set of 5+)" [level=3] [ref=f1e141]
+                          - generic [ref=f1e142]: 3 needed
+                        - paragraph [ref=f1e143]: Absorbent muslin or terry cloth burp cloths. The more the better!
+                      - button "Claim" [ref=f1e144]
+                  - article [ref=f1e145]:
+                    - generic [ref=f1e146]:
+                      - generic [ref=f1e147]:
+                        - heading "Nursing Cover" [level=3] [ref=f1e149]
+                        - paragraph [ref=f1e150]: A lightweight, breathable nursing cover for use at home or out in public.
+                        - paragraph [ref=f1e151]: ✦ Bebe au Lait or similar
+                      - button "Claim" [ref=f1e152]
+              - generic [ref=f1e153]:
+                - heading "Nursery & Sleep" [level=2] [ref=f1e156]
+                - article [ref=f1e158]:
+                  - generic [ref=f1e159]:
+                    - generic [ref=f1e160]:
+                      - generic [ref=f1e161]:
+                        - heading "Swaddle Blankets (Set of 3)" [level=3] [ref=f1e162]
+                        - generic [ref=f1e163]: 2 needed
+                      - paragraph [ref=f1e164]: Stretchy muslin swaddle blankets — excellent for swaddling, nursing cover, or tummy time mat.
+                      - paragraph [ref=f1e165]: ✦ Aden + Anais preferred
+                      - link "Where to buy" [ref=f1e166] [cursor=pointer]:
+                        - /url: https://www.amazon.com/s?k=aden+anais+swaddle+blankets
+                        - text: Where to buy
+                        - img [ref=f1e167]
+                    - button "Claim" [ref=f1e169]
+              - generic [ref=f1e170]:
+                - heading "Postpartum Support" [level=2] [ref=f1e173]
+                - article [ref=f1e175]:
+                  - generic [ref=f1e176]:
+                    - generic [ref=f1e177]:
+                      - generic [ref=f1e178]:
+                        - heading "Nursing Pads (Disposable, Box of 60)" [level=3] [ref=f1e179]
+                        - generic [ref=f1e180]: 2 needed
+                      - paragraph [ref=f1e181]: Disposable nursing pads to prevent leakage during the early weeks of breastfeeding.
+                    - button "Claim" [ref=f1e182]
+    - img [ref=e47]

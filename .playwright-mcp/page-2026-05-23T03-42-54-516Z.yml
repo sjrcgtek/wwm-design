@@ -1,0 +1,146 @@
+- generic [ref=e150]:
+  - complementary [ref=e268]:
+    - generic [ref=e269]:
+      - img [ref=e271]
+      - generic [ref=e273]:
+        - paragraph [ref=e274]: Walking with Moms
+        - paragraph [ref=e275]: in Need
+    - navigation [ref=e276]:
+      - list [ref=e277]:
+        - listitem [ref=e278]:
+          - button "Public Registry" [ref=e279]:
+            - img [ref=e281]
+            - text: Public Registry
+        - listitem [ref=e284]:
+          - button "Needs List" [ref=e285]:
+            - img [ref=e287]
+            - text: Needs List
+        - listitem [ref=e288]:
+          - button "Donor Commitments" [ref=e289]:
+            - img [ref=e291]
+            - text: Donor Commitments
+    - button "DU Demo User" [ref=e296]:
+      - generic [ref=e298]: DU
+      - generic [ref=e299]: Demo User
+      - img [ref=e300]
+  - main [ref=e159]:
+    - generic [ref=e160]:
+      - generic [ref=e161]:
+        - paragraph [ref=e162]: Donation Registry
+        - heading "What We Need" [level=1] [ref=e163]
+        - paragraph [ref=e164]: Browse the list and claim an item to donate. Every gift makes a real difference for a new mom and baby.
+      - generic [ref=e165]:
+        - img
+        - textbox "Search items…" [ref=e166]
+      - generic [ref=e167]:
+        - generic [ref=e168]:
+          - heading "Baby Clothing" [level=2] [ref=e171]
+          - generic [ref=e172]:
+            - article [ref=e173]:
+              - generic [ref=e174]:
+                - generic [ref=e175]:
+                  - heading "Onesies (0–3 Month)" [level=3] [ref=e176]
+                  - generic [ref=e177]: 3 needed
+                - paragraph [ref=e178]: Short and long sleeve newborn onesies in any color or pattern.
+                - paragraph [ref=e179]: ✦ Carter's or similar
+              - button "Claim" [ref=e180]
+            - article [ref=e181]:
+              - generic [ref=e182]:
+                - generic [ref=e183]:
+                  - heading "Footed Sleepers (3–6 Month)" [level=3] [ref=e184]
+                  - generic [ref=e185]: 2 needed
+                - paragraph [ref=e186]: Warm footed pajamas, zipper closure preferred for easy nighttime changes.
+              - button "Claim" [ref=e187]
+        - generic [ref=e188]:
+          - heading "Feeding" [level=2] [ref=e191]
+          - generic [ref=e192]:
+            - article [ref=e193]:
+              - generic [ref=e194]:
+                - generic [ref=e195]:
+                  - heading "Baby Bottles (Set of 4)" [level=3] [ref=e196]
+                  - generic [ref=e197]: 2 needed
+                - paragraph [ref=e198]: Slow-flow nipple bottles suitable for newborns. Great for supplementing or bottle feeding.
+                - paragraph [ref=e199]: ✦ Dr. Brown's or Philips Avent
+              - button "Claim" [ref=e200]
+            - article [ref=e201]:
+              - generic [ref=e202]:
+                - generic [ref=e203]:
+                  - heading "Burp Cloths (Set of 5+)" [level=3] [ref=e204]
+                  - generic [ref=e205]: 3 needed
+                - paragraph [ref=e206]: Absorbent muslin or terry cloth burp cloths. The more the better!
+              - button "Claim" [ref=e207]
+            - article [ref=e208]:
+              - generic [ref=e209]:
+                - heading "Nursing Cover" [level=3] [ref=e211]
+                - paragraph [ref=e212]: A lightweight, breathable nursing cover for use at home or out in public.
+                - paragraph [ref=e213]: ✦ Bebe au Lait or similar
+              - button "Claim" [ref=e214]
+        - generic [ref=e215]:
+          - heading "Nursery & Sleep" [level=2] [ref=e218]
+          - generic [ref=e219]:
+            - article [ref=e220]:
+              - generic [ref=e221]:
+                - generic [ref=e222]:
+                  - heading "Swaddle Blankets (Set of 3)" [level=3] [ref=e223]
+                  - generic [ref=e224]: 2 needed
+                - paragraph [ref=e225]: Stretchy muslin swaddle blankets — excellent for swaddling, nursing cover, or tummy time mat.
+                - paragraph [ref=e226]: ✦ Aden + Anais preferred
+              - button "Claim" [ref=e227]
+            - article [ref=e228]:
+              - generic [ref=e229]:
+                - heading "White Noise Machine" [level=3] [ref=e231]
+                - paragraph [ref=e232]: Portable sound machine to help baby sleep through household noise. Rechargeable preferred.
+                - paragraph [ref=e233]: ✦ Hatch Rest or LectroFan
+              - button "Claim" [ref=e234]
+        - generic [ref=e235]:
+          - heading "Hygiene & Care" [level=2] [ref=e238]
+          - article [ref=e240]:
+            - generic [ref=e241]:
+              - generic [ref=e242]:
+                - heading "Baby Wash & Lotion Set" [level=3] [ref=e243]
+                - generic [ref=e244]: 3 needed
+              - paragraph [ref=e245]: Gentle, fragrance-free wash and lotion for newborn skin. Hypoallergenic formulas preferred.
+              - paragraph [ref=e246]: ✦ Cetaphil Baby or Burt's Bees Baby
+            - button "Claim" [ref=e247]
+        - generic [ref=e248]:
+          - heading "Postpartum Support" [level=2] [ref=e251]
+          - generic [ref=e252]:
+            - article [ref=e253]:
+              - generic [ref=e254]:
+                - generic [ref=e255]:
+                  - heading "Postpartum Recovery Kit" [level=3] [ref=e256]
+                  - generic [ref=e257]: 2 needed
+                - paragraph [ref=e258]: Includes perineal spray, pads, and sitz bath soak to support mom's recovery after delivery.
+                - paragraph [ref=e259]: ✦ Frida Mom preferred
+              - button "Claim" [ref=e260]
+            - article [ref=e261]:
+              - generic [ref=e262]:
+                - generic [ref=e263]:
+                  - heading "Nursing Pads (Disposable, Box of 60)" [level=3] [ref=e264]
+                  - generic [ref=e265]: 2 needed
+                - paragraph [ref=e266]: Disposable nursing pads to prevent leakage during the early weeks of breastfeeding.
+              - button "Claim" [ref=e267]
+      - generic [ref=e303]:
+        - generic [ref=e304]:
+          - paragraph [ref=e305]: Claiming this item
+          - heading "Onesies (0–3 Month)" [level=2] [ref=e306]
+        - generic [ref=e307]:
+          - paragraph [ref=e308]: Leave your contact info so the coordinator can follow up. Your details won't be shared publicly.
+          - generic [ref=e309]:
+            - generic [ref=e310]:
+              - generic [ref=e311]: Your name
+              - textbox "Jane Smith" [active] [ref=e312]
+            - generic [ref=e313]:
+              - generic [ref=e314]: Email address
+              - textbox "jane@example.com" [ref=e315]
+            - generic [ref=e316]:
+              - generic [ref=e317]:
+                - text: How many can you donate?
+                - generic [ref=e318]: (3 available)
+              - generic [ref=e319]:
+                - button "−" [disabled] [ref=e320]
+                - generic [ref=e321]: "1"
+                - button "+" [ref=e322]
+          - generic [ref=e323]:
+            - button "Cancel" [ref=e324]
+            - button "Confirm Claim" [ref=e325]
